@@ -15,15 +15,17 @@ const UseState = () => {
 export default UseState
 
 /*
+useState:
 To use the useState Hook, we first need to import it into our component.
+
 import { useState } from "react";
 
 Notice that we are destructuring useState from react as it is a named export.
 
 
 useState accepts an initial state and returns two values:
-The current state.
-A function that updates the state.
+          The current state.
+          A function that updates the state.
 
 const [current state, fxn to update state] = useState(initial state);
 NB: initial state === current state
