@@ -16,7 +16,7 @@ export default UseEffect
 
 
 /*
-useEffect
+useEffect:
 The useEffect Hook allows you to perform side effects in your components.
 Some examples of side effects are: fetching data, directly updating the DOM, 
 and timers.
@@ -85,8 +85,8 @@ NB: Clicking d btn causes a re-rendering, wc is what useEffect needs
 
 Effect Cleanup
 Some effects require cleanup to reduce memory leaks.
-Timeouts, subscriptions, event listeners, and other effects that are 
-no longer needed should be disposed.
+Timeouts, subscriptions, event listeners, and other effects 
+that are no longer needed should be disposed.
 We do this by including a return function at the end of the 
 useEffect Hook.
 
@@ -105,8 +105,5 @@ function Timer() {
 }
 
 Note: To clear the timer, we had to name it.
-
-
-          
 
 */ 
